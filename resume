@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Kirby Resume</title>
+ <style>
+ #example1 {
+     border: 1px solid black;
+     bacground-size: cover;
+     bacground-repeat:on-repeat,repeat;
+     padding: 15px;
+     margin: 50px:
+     }
+  #example1 :hover{
+     color: red;
+     }
+ #tag li{
+     float: left;
+     background-color: #b0c4de;
+     padding: 20px;
+     }
+ #tag :hover{
+     background-color:yellow;
+     }
+ #tag {
+     list
