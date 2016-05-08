@@ -2,24 +2,109 @@
 <html>
 <head>
  <title>Kirby Resume</title>
- <style>
- #example1 {
-     border: 1px solid black;
-     bacground-size: cover;
-     bacground-repeat:on-repeat,repeat;
-     padding: 15px;
-     margin: 50px:
-     }
-  #example1 :hover{
-     color: red;
-     }
- #tag li{
-     float: left;
-     background-color: #b0c4de;
-     padding: 20px;
-     }
- #tag :hover{
-     background-color:yellow;
-     }
- #tag {
-     list
+<style> 
+#example1 {
+	border: 1px solid black;
+    
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+	margin: 50px;
+	
+}
+#example1 :hover {
+	color: rad;
+	
+}
+
+#tag li {
+  float: left;
+  background-color: #b0c4de;
+  padding: 20px;
+  
+}
+#tag :hover { 
+    background-color: yellow;
+}
+
+#tag {
+   list-style-type: none;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+	
+}
+#footer {
+	 
+    padding: 25px;
+    border: 5px solid navy;
+    margin:  50px;
+	background-color: green;
+}
+#footer1 :hover  {
+	background-color: white
+	
+	
+	
+}
+#footer1 li {
+	background-color: green;
+	float: left;
+	list-style-type: none;
+	padding: 1px 10px;
+	
+}
+button { 
+	background-color: green;
+}
+</style>
+</head>
+<body>
+<ul id="tag">
+   <li>Carrie</li><li>Kirby</li><li>Caden</li>
+   <li>Cole</li>
+   <li>Kailey</li>
+   <li>Conner</li>
+</ul>
+
+<div id="example1">
+<h1>Kirby Nelson</h1>
+<p id="address">4647 W 5750 S<br>
+Hooper, UT 84315 US<br>
+</P>
+<p id="contact">Home: 801-605-8254<br>
+Email:<a href="mailto:kirby-nelson@comcast.net">Kirby-Nelson@comcast.net</a></P>
+<p id="work1"><h2><a href="http://www.carrprinting.com">Carr Printing</a></h2>580 West 100 North<br>P.O.Box 888<br>
+Bountiful, UT 84011 US</P>
+<p id="experience"><h3>04/1997 - Present<br>Hours per week: 40<br>Pressman<br>
+Duties Accomplishments and Related Skills:</h3>
+Press operator for 14 years running ITEC, GTO, MO. Printing presses. Bindery for 5 years running 
+Mueller, Multi Binder, Lamination and Forklift. I disassemble, repair, rebuild, modify, test, troubleshoot, and 
+install more complex mechanical systems with extensive repairing,testing, and
+troubleshooting sequences than the components and systems characteristics.<br><br>
+As a pressman, I am required to install the system in the area where it is to be
+ used and to perform the final 
+operational test to check the automatic adjustments of the system and to assure that all 
+specifications are met.<br><br>
+</p>
+</div>
+<div id="footer">
+	<h1>Kirby Nelson</h1>
+	<ul id="footer1">
+		
+		<li>Contact Me</li>
+		<li>More About Me</li>
+		<button onclick="myFunction()">Try it</button>
+	</ul>
+	
+
+<script>
+function myFunction() {
+    alert("I am an alert box!");
+	
+}
+</script>
+</div>
+</body>
+</html>
